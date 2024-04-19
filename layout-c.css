@@ -1,0 +1,35 @@
+
+.mybox1 {
+    background-color: rgb(242, 229, 51);
+    min-height: 200px;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+/* Small devices (Landscape phones)*/
+@media (min-width: 576px){
+
+}
+
+/* Medium devices (Tablets)*/
+@media (min-width: 768px){
+    h1 {
+        color: blue;
+    }
+}
+
+/* Large devices (desktop)*/
+@media (min-width: 992px){
+    
+}
+
+/* Extra Large devices (large desktops)*/
+@media (min-width: 1200px){
+    h1 {
+        color: rgb(129, 4, 88);
+    }
+}
